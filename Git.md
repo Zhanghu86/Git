@@ -55,9 +55,11 @@ git remote -v	//
 
 ###Gist
 
-存放代码片段。
+! [rejected] master -> master (non-fast-forward)
+error: failed to push some refs to
 
-
-git分支
-
-SourceTree
+1, git pull origin master
+2, git add .
+3, git commit -m
+4, git pull --rebase origin master
+5, git push -u origin master
