@@ -6,19 +6,17 @@ https://git-scm.com/download/win 下载对应版本安装
 
 git --version	//查看git版本
 
-gitgutter	//这个插件做本地变化提示
-
 常用命令
 
 git init	//初始化仓库
 
-git status//第一次查看，显示的是没有被跟踪的文件				
+git status	//第一次查看，显示的是没有被跟踪的文件				
 
 git status -s	//-s 查看简要的文件信息
 
 git add .	//可以将一个没有被跟踪的文件添加到跟踪列表
 
-			//代码库添加一个 .gitignore 记录不被跟踪的文件夹
+		//代码库添加一个 .gitignore 记录不被跟踪的文件夹
 
 git commit -m '第一次提交代码到仓库'	//将本地的仓库归档
 
@@ -43,15 +41,14 @@ git checkout gh-pages
 git push -u origin gh-pages 
 
 
-###github是个网站，存储代码的仓库。
+#github是个网站，存储代码的仓库。
 
 git remote add origin github仓库网址	//设置远端地址		
 
 git push -u origin master	//将本地的源码同步到远端仓库  
 
-git pull origin master
+git pull origin master		//讲远程仓库的源码更新到本地
 
-git remote -v	//
 
 #上传的时候报错
 ! [rejected] master -> master (non-fast-forward)
@@ -66,3 +63,4 @@ error: failed to push some refs to
 4, git pull --rebase origin master
 
 5, git push -u origin master
+
