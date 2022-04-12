@@ -53,13 +53,16 @@ git pull origin master
 
 git remote -v	//
 
-###Gist
-
+#上传的时候报错
 ! [rejected] master -> master (non-fast-forward)
 error: failed to push some refs to
 
 1, git pull origin master
+
 2, git add .
+
 3, git commit -m
+
 4, git pull --rebase origin master
+
 5, git push -u origin master
