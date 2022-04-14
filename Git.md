@@ -40,45 +40,48 @@ git checkout gh-pages
 
 git push -u origin gh-pages 
 
-
 #github是个网站，存储代码的仓库。
 
-git remote add origin github仓库网址	//设置远端地址		
+git remote add origin github仓库网址     //设置远端地址		
 
-git push -u origin master	//将本地的源码同步到远端仓库  
+git push -u origin master		//将本地的源码同步到远端仓库  
 
-git pull origin master		//讲远程仓库的源码更新到本地
+git pull origin master			//讲远程仓库的源码更新到本地
+
+git remote -v				//查看远程仓库地址
 
 
 #上传的时候报错
-! [rejected] master -> master (non-fast-forward)
-error: failed to push some refs to
 
-1, git pull origin master
+		! [rejected] master -> master (non-fast-forward)
+		error: failed to push some refs to
 
-2, git add .
+		1, git pull origin master
 
-3, git commit -m
+		2, git add .
 
-4, git pull --rebase origin master
+		3, git commit -m
 
-5, git push -u origin master
+		4, git pull --rebase origin master
+
+		5, git push -u origin master
+
+
 
 
 
 #安装好环境的情况下运行Vue项目步骤
 
+		###1.把远程仓库代码克隆到本地
 
-###1.把远程仓库代码克隆到本地
+		cd E:\Program Files\nodejs\testmall	
 
-cd E:\Program Files\nodejs\testmall	
+		###2.安装所需依赖
 
-###2.安装所需依赖
+		cnpm install		
 
-cnpm install		
+		###3.可以修改lib目录中interface.js文件中的的api地址		
 
-###3.可以修改lib目录中interface.js文件中的的api地址		
+		###4.启动项目
 
-###4.启动项目
-
-npm run serve	
+		npm run serve	
