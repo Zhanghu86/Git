@@ -64,3 +64,21 @@ error: failed to push some refs to
 
 5, git push -u origin master
 
+
+
+#安装好环境的情况下运行Vue项目步骤
+
+
+###1.把远程仓库代码克隆到本地
+
+cd E:\Program Files\nodejs\testmall	
+
+###2.安装所需依赖
+
+cnpm install		
+
+###3.可以修改lib目录中interface.js文件中的的api地址		
+
+###4.启动项目
+
+npm run serve	
